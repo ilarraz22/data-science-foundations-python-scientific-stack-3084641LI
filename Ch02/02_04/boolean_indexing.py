@@ -14,6 +14,7 @@ arr >= 1
 arr[arr >= 1]
 
 # %%
+# and: &, or: |, not: ~
 arr = np.arange(10)
 
 arr[(arr>2) & (arr<7)]
