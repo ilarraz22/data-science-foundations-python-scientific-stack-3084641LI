@@ -1,7 +1,7 @@
 # %%
 import matplotlib.pyplot as plt
 
-img = plt.imread('flower.png')
+img = plt.imread('/workspaces/data-science-foundations-python-scientific-stack-3084641LI/Ch02/challenge/flower.png')
 img = img.copy()  # make img writable
 plt.imshow(img)
 
