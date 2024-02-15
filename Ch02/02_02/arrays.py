@@ -29,6 +29,7 @@ v2 = np.random.rand(1_000_000)
 %time v1 * v2
 
 # %%
+# this multiplies the arrays
 arr @ arr
 # %%
 mat = np.array([
@@ -43,6 +44,7 @@ v = np.arange(12)
 v
 
 # %%
+#Reshapes the array into a matrix
 v.reshape((4, 3))
 
 # %%
@@ -58,4 +60,5 @@ mat2[1, 1] = 1000
 mat
 
 # %%
+#the .T transposes the matrix
 mat.T
